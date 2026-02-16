@@ -1,0 +1,233 @@
+*{
+    text-decoration: none;
+    list-style: none;
+
+}
+a{
+    color: chocolate;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Barra de navegación */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #333;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin-right: 20px;
+    color: #333;
+}
+
+/* Encabezado */
+.main-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.main-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Secciones */
+h2 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+/* Sitios Turísticos, Hoteles y Restaurantes */
+.col-md-6 {
+    margin-bottom: 40px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #2a3030;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contenedor-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.content-foo {
+    flex: 1;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.content-foo h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    font-size: 16px;
+}
+
+.titulo-final {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.creditos a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.creditos a:hover {
+    text-decoration: underline;
+}
+
+/* Carrusel de Imágenes */
+.slider {
+    width: 100%;
+}
+
+.slider div {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 0;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .main-header {
+        padding: 80px 0;
+    }
+
+    .main-header h1 {
+        font-size: 28px;
+    }
+    .logo1{
+        visibility: hidden;
+        height: 0px;
+    }
+    .logo2{
+        visibility: visible;
+        height: 80px;
+    }
+}
+
+
+/* Estilos CSS */
+
+/* Estilo para la sección de Encabezado */
+.header-section {
+    background: linear-gradient(to bottom,#00000042, #000000a2),
+    url(../Fotos/Portadas/Portada1.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+@media (max-width: 2080px){
+.logo1{
+    height: 100px;
+    visibility: visible;
+}
+.logo2{
+    visibility: hidden;
+    height: 0px;
+}
+}
+
+/* Estilo para la línea horizontal que separa las secciones */
+.section-divider {
+    border-top: 3px solid #858383;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+ /* Estilo para hacer el iframe responsive */
+ .responsive-iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* Proporción 16:9 */
+    height: 880px;
+}
+
+.responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#reloj {
+    color: #ffff;
+    text-align: center;
+    font-family: 'Digital', sans-serif;
+}
+.WhatsApp{
+    color: #006900;
+    text-decoration: none;
+}
+.instagram{
+    color: #7902c9;
+    text-decoration: none;
+}
+.ubicacion{
+    color: #d84400;
+}
+
+/*Mas Info/Menos Info*/
+.informacion-adicional {
+    display: none; /* Ocultar el div inicialmente */
+    padding-bottom: 20px; /* Espacio para el degradado */
+}
+
+.col-md-6 > img{
+    width: 300px;
+}
